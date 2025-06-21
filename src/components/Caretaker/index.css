@@ -1,0 +1,227 @@
+.caretaker-container {
+  background-color: #dcf1fd;
+}
+
+.status-container {
+  background-color: #ffffff;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 14px;
+}
+
+.calendar-view {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 36px;
+}
+
+.calendar-icon {
+  width: 30px;
+  height: 30px;
+  color: #3474eb80;
+}
+
+.status-heading {
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.time-status-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-status-para {
+  font-family: Inter;
+  line-height: 4px;
+}
+
+.time-status-para h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+
+.time-status-para p {
+  color: #91aab9;
+  font-family: sans-serif;
+}
+
+.time-status-container > p {
+  border: 1px solid;
+  background-color: #fc3636;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 20px;
+  height: 14px;
+  font-weight: bold;
+  font-family: "Inter";
+  align-self: center;
+}
+
+.actions-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.actions-container h3 {
+  font-family: "Inter";
+  font-size: 20px;
+}
+
+.actions-container button {
+  margin: 5px 0px 5px 0px;
+  padding: 8px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #dbdfe2;
+  background-color: #ffffff;
+}
+
+.switch-tab-icons {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.over-all-progress {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.progress-percent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-range {
+  height: 10px;
+  background-color: #e9dede;
+  border-radius: 20px;
+}
+.progress-range-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.days {
+  line-height: 0px;
+  text-align: center;
+  font-family: "sans-serif";
+}
+
+.days-para {
+  color: #98abb9;
+}
+
+.tab-container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.button {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  color: #98abb9;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.active-button {
+  color: #000;
+  background-color: #ffffffaf;
+  flex-grow: 1;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.calendar-heading {
+  font-family: "Inter";
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.calendar-tab {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.calendar-note {
+  background-color: #8a9bfa34;
+  padding: 20px;
+  color: #465fce;
+  border: 1px solid #465fce;
+  border-radius: 20px;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .caretaker-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caretaker-main-container {
+    align-self: center;
+    width: min(95%, 992px);
+  }
+}
+@media screen and (min-width:992px){
+  .overview-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .status-container{
+    min-width: 400px;
+    flex-grow: 1;
+  }
+
+  .actions-container{
+    min-width: 400px;
+    flex-grow: 1;
+  }
+
+  .over-all-progress{
+    min-width: 400px;
+    flex-grow: 1;
+  }
+
+  .calendar-tab{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }
+
+}

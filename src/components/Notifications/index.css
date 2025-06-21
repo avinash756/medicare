@@ -1,0 +1,119 @@
+.notification-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-family: "Inter";
+  border: 1px solid #f1cfcf;
+}
+
+.notification-bell-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.notification-heading {
+  font-size: 22px;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  width: 60px;
+  height: 30px;
+  border-radius: 999px;
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.email-heading {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.email-para {
+  color: rgb(166, 181, 194);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.email-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.email-input-label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.email-input {
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid #f1cfcf;
+  background-color: #ffffff;
+}
+
+.email-input-para {
+  color: #7e9fa1;
+  font-size: 12px;
+}
+
+.email-preview-container {
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.email-heading-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-container{
+    border: 1px solid #d8e6f7;
+    padding: 15px;background-color: #fbfdfd;
+    border-radius: 15px;
+}
+
+.email-subject{
+    font-size: 14px;
+    
+}
+
+
+.email-para2{
+    font-size: 14px;
+    color: #69817e;
+}
+
+.save-button{
+    margin: 20px;
+    background-color: rgb(11, 245, 11);
+    font-family: 'Inter';
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    align-self: flex-end;
+}

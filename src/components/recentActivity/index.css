@@ -1,0 +1,86 @@
+.recentActivityContainer {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.recent-heading {
+  font-size: 22px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #bccfc4;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.details-correct-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.judge-icon {
+  width: 25px;
+  height: 25px;
+  color: #04b14c;
+  background-color: #d4f5e2;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.date-heading {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.date-time {
+  font-size: 14px;
+  color: #758186;
+}
+
+.photo-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #bccfc4;
+  width: 70px;
+  padding: 5px;
+  border-radius: 20px;
+  height: 20px;
+}
+
+.completed-status {
+  border: 1px transparent #bccfc4;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #e6f1f8;
+}
+
+.incomplete-status {
+  background-color: red;
+  color: #ffffff;
+  border: 1px transparent;
+  padding: 10px;
+  border-radius: 20px;
+  height: 15px;
+  font-weight: bold;
+}
+
+.warning-icon {
+  width: 25px;
+  height: 25px;
+  color: #db0404;
+  background-color: #fce3e3;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

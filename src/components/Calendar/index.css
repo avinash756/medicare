@@ -1,0 +1,83 @@
+.calendar-wrapper {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
+  margin-right: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.legend {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 14px;
+  font-family: 'Inter';
+}
+
+.calendar {
+  border-radius: 10px;
+}
+
+.today-cell {
+  background: #007bff !important;
+  color: white !important;
+  border-radius: 6px;
+}
+
+/* Optional: adjust spacing if needed */
+.react-calendar__month-view__weekdays__weekday {
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #000;
+}
+
+/* Targets days from the previous/next month */
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #bbb; /* light gray */
+}
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+  border-radius: 4px;
+}
+
+.react-calendar__tile:hover {
+  background-color: #e0f7fa;
+  border-radius: 8px;
+}
+
+.details{
+  font-family: 'Inter';
+  line-height: 10px;
+  margin: 4px;
+}

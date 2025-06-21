@@ -1,0 +1,362 @@
+#upload {
+  display: none;
+}
+
+.nav-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  height: 60px;
+  width: max(95%,768px);
+}
+
+.nav-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.patient-icon {
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(120deg, #2979ff, #00c853);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Inter";
+  margin-right: 10px;
+}
+
+.heading-container {
+  width: 100px;
+}
+
+.nav-heading {
+  font-family: "Inter";
+  text-decoration: bold;
+  font-weight: 900;
+  line-height: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.nav-viewname {
+  margin-top: 0px;
+  color: #508080;
+  font-family: "Inter";
+}
+
+.switch-tab-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #e6d5d5;
+  width: 180px;
+  padding: 5px;
+  height: 34px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #212121;
+}
+
+.switch-heading {
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 14px;
+}
+
+.main-container {
+  background-color: #daebf3;
+  padding: 20px;
+}
+
+.progress-container {
+  background-image: linear-gradient(to right, #2979ff, #00c853);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.greeting-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-icon {
+  color: #ffffff;
+  height: 60px;
+  width: 30px;
+  background-color: #daebf336;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.greeting-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.greeting-description {
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+.streak-container {
+  background-color: #e6d5d543;
+  padding: 6px 10px 6px 10px;
+  margin: 10px 0px 10px 0px;
+  color: #ffffff;
+  line-height: 10px;
+  border-radius: 10px;
+}
+
+.bold-text {
+  font-weight: 900;
+  font-size: 18px;
+  font-family: "Inter";
+}
+
+.medication-container {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.calendar-icon-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.calendar-icon {
+  width: 50px;
+  height: 30px;
+  color: #0743aa;
+  font-weight: bold;
+}
+
+.time-remaindar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #dfe2e1;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+.counter-number {
+  height: 20px;
+  width: 20px;
+  background-color: #daebf3;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.heading3-container {
+  line-height: 10px;
+}
+
+.timer-remaindar-heading {
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+.timer-remaindar-para {
+  color: #8e939b;
+  line-height: 20px;
+}
+
+.time {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  border: 1px solid #dfe2e1;
+  border-radius: 30px;
+  height: 30px;
+}
+
+.attendance-mark-container {
+  margin-top: 20px;
+  border: 1px solid #dfe2e1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-icon {
+  height: 50px;
+  width: 50px;
+  color: #9e9797;
+}
+h4 {
+  margin-bottom: 10px;
+}
+
+.attendance-mark-para {
+  text-align: center;
+  margin-top: 0px;
+  color: #948989;
+}
+
+.upload-label {
+  border: 1px solid #dfe2e1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.mark-taken-button {
+  margin-top: 20px;
+  padding: 10px;
+  height: 40px;
+  background-color: #00c853;
+  border: 1px transparent;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Inter";
+  font-size: 16px;
+  width: 100%;
+}
+
+.calendar-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.tick-container {
+  border: 1px solid #54fd9a;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebfcf2;
+  border-radius: 20px;
+}
+
+.tick-icon {
+  width: 40px;
+  background-color: #00c853;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.tick-heading {
+  color: #087033;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.tick-para {
+  color: #00c853;
+  text-align: center;
+  font-size: 18px;
+  max-width: 300px;
+  font-weight: 400;
+}
+
+.tick-mini-icon {
+  height: 20px;
+  width: 20px;
+  background-color: #00c853;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tick-timer-container {
+  display: flex;
+  border: 1px solid #61eb9a;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  align-items: center;
+  background-color: #ebfcf2;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px transparent;
+  width: 100px;
+  background-color: #d1f5e0;
+  color: #087033;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .greeting-container {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .main-container {
+    width: min(95%, 992px);
+    align-self: center;
+  }
+
+  .patient-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .streak-display-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .streak-container {
+    flex-grow: 1;
+  }
+
+  .profile-icon {
+    width: 50px;
+  }
+
+  .medication-container {
+    display: flex;
+  }
+}
+
+@media screen and (min-width:992px){
+  .large-display-container{
+    display: flex;
+    gap: 10px;
+  }
+  .medication-container{
+    flex-grow: 1;
+  }
+}
