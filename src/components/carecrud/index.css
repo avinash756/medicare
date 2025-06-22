@@ -1,0 +1,50 @@
+.caretaker-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9ffff;
+  border: 1px solid #d2e4ee;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 119, 204, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-section input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-section button {
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.medication-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.medication-list li {
+  background: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.taken {
+  color: green;
+  font-weight: bold;
+}
