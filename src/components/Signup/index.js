@@ -13,11 +13,14 @@ function Signup() {
 
   const handleSignup = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/signup", {
-        username,
-        password,
-        role,
-      });
+      const res = await axios.post(
+        "https://medicarebackend.vercel.app/signup",
+        {
+          username,
+          password,
+          role,
+        }
+      );
       setMessage(res.data.message);
       setError("");
       navigate("/login"); // Go to login after successful signup

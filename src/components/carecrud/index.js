@@ -21,7 +21,7 @@ function CaretakerDashboard() {
     if (!name || !dosage || !frequency) return alert("Please fill all fields");
 
     try {
-      await axios.post("http://localhost:5000/medications", form);
+      await axios.post("https://medicarebackend.vercel.app/medications", form);
       setForm({ name: "", dosage: "", frequency: "" });
       fetchMedications();
     } catch (err) {
@@ -31,7 +31,9 @@ function CaretakerDashboard() {
 
   const handleMarkTaken = async (id) => {
     try {
-      await axios.put(`http://localhost:5000/medications/${id}/taken`);
+      await axios.put(
+        `https://medicarebackend.vercel.app/medications/${id}/taken`
+      );
       fetchMedications();
     } catch (err) {
       console.error("Mark taken failed:", err);
